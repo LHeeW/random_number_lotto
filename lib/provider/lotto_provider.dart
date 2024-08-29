@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 class LottoProvider extends ChangeNotifier {
   Lotto lotto = Lotto();
 
-  void fetch({int num = 1102}) async {
+  void fetch({int num = 1134}) async {
     String url =
         'https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=$num';
     final response = await http.get(Uri.parse(url));

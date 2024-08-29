@@ -39,7 +39,7 @@ class RoundInputUI extends StatelessWidget {
                 ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text('입력된 정보가 없습니다.')));
               } else if (int.parse(roundController.text) < 1 ||
-                  int.parse(roundController.text) > 1102) {
+                  int.parse(roundController.text) > 1134) {
                 ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text("없는 회차이거나 잘못된 입력입니다.")));
               } else {
